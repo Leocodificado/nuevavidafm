@@ -1,0 +1,106 @@
+#logo{
+    
+    position: relative;
+    margin: 0 auto;
+}
+
+.titulo{
+  text-align: center; 
+  text-transform: uppercase; /*mayusculas*/
+  color: white;/*color de letra*/
+  font-weight: bold;/*negrita*/
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(3, 21, 2);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 940px;
+    position: relative;
+    /*text-transform: uppercase; /*mayusculas*/
+    color: white;/*color de letra*/
+    font-weight: bold;/*negrita*/
+    text-decoration: none;/*retirar el subrayado*/
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+iframe {
+  text-align: center;
+}
+
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .schedule table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .schedule th,
+  .schedule td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .schedule th {
+    background-color: #a2a2f2;
+  }
+
+  .whatsapp{
+    color: white;
+    text-decoration: none; 
+  }
+
+  .player {
+    margin-bottom: 20px;
+    text-align: center;
+    color: aqua;
+  }
+  
+  .chat {
+    margin-bottom: 20px;
+  }
+  
+  .schedule h2,
+  .news h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    color: white;/*color de letra*/
+  }
