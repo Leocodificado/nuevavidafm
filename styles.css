@@ -1,5 +1,5 @@
 #logo{
-    
+   
     position: relative;
     margin: 0 auto;
 }
@@ -106,6 +106,53 @@ iframe {
   }
 
 
-      
+  
+  .carousel-container {
+    width: 50%;
+    overflow: hidden;
+    
   }
-
+  
+  .carousel-slide {
+    display: flex;
+    width: 400%;
+    animation: carouselAnimation 10s infinite;
+  }
+  
+  .carousel-slide img {
+    width: 25%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes carouselAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-25%);
+    }
+    45% {
+      transform: translateX(-25%);
+    }
+    50% {
+      transform: translateX(-50%);
+    }
+    70% {
+      transform: translateX(-50%);
+    }
+    75% {
+      transform: translateX(-75%);
+    }
+    95% {
+      transform: translateX(-75%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
